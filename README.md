@@ -36,6 +36,11 @@ EXERCISES
 10. Track.select(:name).where("media_type_id = ? AND genre_id = ?" , MediaType.find_by(name: "MPEG audio file"), Genre.find_by(name: "Electronica/Dance"))
 
 
+STRETCH
+
+1. Album.where('title LIKE ?', 'B%')
+
+2. Artist.where('name LINE ?', 'A%')
 
 
   
